@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: #532708;
+}
+
+.title-container p {
+    font-size: 1.6rem;
+    color: white;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.container {
+    width: 40%;
+    margin: 9rem auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+
+#btn-yes {
+    border: none;
+    color: white;
+    text-shadow: #FC0 1px 0 10px;
+    height: 3rem;
+    width: 7rem;
+    background-color: #853e0b;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#btn-yes:hover {
+    background-color: #d56718;
+    transition: 0.9s;
+}
+
+#btn-no { 
+    border: none;
+    color: white;
+    text-shadow: #FC0 1px 0 10px;
+    height: 3rem;
+    width: 7rem;
+    background-color: #853e0b;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#btn-no:hover {
+    background-color: #d56718;
+    transition: 0.9s;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .img-cat {
+        width: 90%;   
+    }
+
+    .container-buttons {
+        width: 80%;
+    }
+
+}
